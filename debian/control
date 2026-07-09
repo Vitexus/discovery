@@ -1,0 +1,29 @@
+Source: php-http-discovery
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools,
+ php-cli,
+ jq,
+ phpab,
+ appstream,
+Standards-Version: 4.7.0
+Homepage: http://php-http.org
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/discovery.git
+Vcs-Browser: https://github.com/Vitexus/discovery
+
+Package: php-http-discovery
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-common,
+ composer,
+Description: Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations
+ Runtime discovery mechanism that locates installed PSR-7/PSR-17/PSR-18
+ HTTP message/factory/client implementations (e.g. nyholm/psr7) so
+ libraries do not have to hard-depend on one specific implementation.
+ Used by the OpenTelemetry PHP SDK's OTLP exporter.

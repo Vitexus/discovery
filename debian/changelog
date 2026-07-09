@@ -1,0 +1,7 @@
+php-http-discovery (1.20.0-1) UNRELEASED; urgency=medium
+
+  * Initial packaging of php-http/discovery (tag 1.20.0), a dependency
+    of the OpenTelemetry PHP SDK used by MultiFlexi's OTLP metrics
+    exporter.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 09 Jul 2026 13:02:21 +0200

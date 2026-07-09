@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="generic">
+  <id>cz.vitexsoftware.php-http-discovery</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>HTTPlug Discovery</name>
+  <summary>Finds and installs PSR-7, PSR-17, PSR-18 and HTTPlug implementations</summary>
+  <description>
+    <p>
+      Runtime discovery mechanism that locates installed PSR-7/PSR-17/PSR-18
+      HTTP message, factory, and client implementations (e.g. nyholm/psr7)
+      so libraries do not have to hard-depend on one specific
+      implementation. Used by the OpenTelemetry PHP SDK's OTLP exporter.
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">http://php-http.org</url>
+</component>
